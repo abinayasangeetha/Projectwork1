@@ -1,59 +1,108 @@
-## Title of the Project
-Small description about the project like one below
-The integration of a chatbot within a hostel booking system, aimed at streamlining the reservation process for students and improving the overall user experience.
+# AI-Powered Multimodal Interview Assistant
+
+A virtual interview platform that evaluates candidates using text, audio, and video analysis to measure communication quality, confidence, and technical accuracy—offering a realistic AI-driven interview preparation experience.
+
+---
 
 ## About
-<!--Detailed Description about the project-->
-Tailored Chatbot for Hostel Booking System is a project designed to integrate a chatbot that leverages advanced natural language processing techniques to understand and respond to user queries to the hostel booking system. Traditional hostel booking processes are often time-consuming and involve manual searches and extensive communication with hostel staff. This project seeks to overcome these challenges by creating an easy-to-use chatbot interface that assists students in addressing inquiries.
+The **AI-Powered Multimodal Interview Assistant** overcomes the limitations of traditional mock interview tools that rely only on text-based responses.  
+This system analyzes **spoken language, facial expressions, and textual content** to provide deeper, more accurate evaluation.
+
+It automatically generates personalized technical and HR questions from the candidate’s resume and job role. Users respond via video/audio, and the system delivers multimodal scoring along with detailed feedback and improvement suggestions.
+
+Designed for students, job seekers, and placement cells, this tool strengthens interview performance through continuous practice and data-driven evaluation.
+
+---
 
 ## Features
-<!--List the features of the project as shown below-->
-- Implements advance neural network method.
-- A framework based application for deployment purpose.
-- High scalability.
-- Less time complexity.
-- A specific scope of Chatbot response model, using json data format.
+- AI-generated technical & HR interview questions based on resume analysis.
+- Real-time multimodal evaluation using:
+  - **Text (NLP scoring with Gemini)**
+  - **Audio (Whisper transcription & clarity metrics)**
+  - **Video (OpenCV-based facial detection & analysis)**
+- Question-wise scoring: accuracy, communication, voice tone, expression.
+- Downloadable PDF performance report.
+- History tracking for progress improvement.
+- User-friendly web interface built with Flask.
+
+---
 
 ## Requirements
-<!--List the requirements of the project as shown below-->
-* Operating System: Requires a 64-bit OS (Windows 10 or Ubuntu) for compatibility with deep learning frameworks.
-* Development Environment: Python 3.6 or later is necessary for coding the sign language detection system.
-* Deep Learning Frameworks: TensorFlow for model training, MediaPipe for hand gesture recognition.
-* Image Processing Libraries: OpenCV is essential for efficient image processing and real-time hand gesture recognition.
-* Version Control: Implementation of Git for collaborative development and effective code management.
-* IDE: Use of VSCode as the Integrated Development Environment for coding, debugging, and version control integration.
-* Additional Dependencies: Includes scikit-learn, TensorFlow (versions 2.4.1), TensorFlow GPU, OpenCV, and Mediapipe for deep learning tasks.
+- **OS:** Windows 10/11 or Ubuntu (64-bit recommended)
+- **Language:** Python 3.12
+- **Core AI Tools & Frameworks:**
+  - Google Gemini API (NLP + question generation)
+  - Faster-Whisper (speech-to-text)
+  - OpenCV (video/frame processing)
+- **Python Libraries:**
+  - Flask
+  - NumPy
+  - SoundFile
+  - MoviePy
+  - FPDF
+  - Requests
+  - dotenv
+- **Frontend Technologies:**
+  - HTML5, CSS3, JavaScript
+  - MediaRecorder API for camera & mic capture
+
+---
 
 ## System Architecture
-<!--Embed the system architecture diagram as shown below-->
 
-![Screenshot 2023-11-25 133637](https://github.com/<<yourusername>>/Hand-Gesture-Recognition-System/assets/75235455/a60c11f3-0a11-47fb-ac89-755d5f45c995)
+<img width="1184" height="864" alt="image" src="https://github.com/user-attachments/assets/a00e2a96-804f-421b-a82c-8f26341fc1fa" />
+
+
 
 
 ## Output
 
-<!--Embed the Output picture at respective places as shown below as shown below-->
-#### Output1 - Name of the output
+### **Output 1 — Resume Upload**
+Extracts text and generates personalized questions.
 
-![Screenshot 2023-11-25 134037](https://github.com/<<yourusername>>/Hand-Gesture-Recognition-System/assets/75235455/8c2b6b5c-5ed2-4ec4-b18e-5b6625402c16)
+<img width="1915" height="836" alt="image" src="https://github.com/user-attachments/assets/dc92008c-0165-44f2-8293-e22f10d80b37" />
 
-#### Output2 - Name of the output
-![Screenshot 2023-11-25 134253](https://github.com/<<yourusername>>/Hand-Gesture-Recognition-System/assets/75235455/5e05c981-05ca-4aaa-aea2-d918dcf25cb7)
 
-Detection Accuracy: 96.7%
-Note: These metrics can be customized based on your actual performance evaluations.
+### **Output 2 — Interview Interface**
+Records audio/video responses and displays each question.
 
+<img width="1532" height="770" alt="image" src="https://github.com/user-attachments/assets/b1447b03-8c2e-4802-a73f-b698300d8557" />
+
+
+### **Output 3 — Results Dashboard**
+Shows NLP scores, multimodal accuracy, detailed feedback per question, and downloadable report.
+
+<img width="1348" height="866" alt="image" src="https://github.com/user-attachments/assets/611e512a-594d-4823-b817-d844dd7943ba" />
+
+
+### **Output 4 — Progress Tracking**
+Displays historical performance improvement across multiple attempts.
+
+<img width="1536" height="686" alt="image" src="https://github.com/user-attachments/assets/461822dc-188a-4785-8188-abf1b5b47279" />
+
+
+---
 
 ## Results and Impact
-<!--Give the results and impact as shown below-->
-The Sign Language Detection System enhances accessibility for individuals with hearing and speech impairments, providing a valuable tool for inclusive communication. The project's integration of computer vision and deep learning showcases its potential for intuitive and interactive human-computer interaction.
+This AI-driven system enhances interview readiness by providing **real-time, multimodal feedback** on communication, confidence, and technical accuracy.  
+It offers:
+NLP Scores
+ Confidence: 65%
+ Communication: 70%
+ Answer Accuracy: 80%
 
-This project serves as a foundation for future developments in assistive technologies and contributes to creating a more inclusive and accessible digital environment.
+- Deep behavioral analysis missing in text-only tools  
+- Automated and unbiased scoring  
+- Practical insights for improving interview performance  
+- A scalable solution for students, job seekers, and training centers  
+
+It effectively serves as a **virtual AI interview coach**, supporting long-term skill development.
+
+---
 
 ## Articles published / References
-1. N. S. Gupta, S. K. Rout, S. Barik, R. R. Kalangi, and B. Swampa, “Enhancing Heart Disease Prediction Accuracy Through Hybrid Machine Learning Methods ”, EAI Endorsed Trans IoT, vol. 10, Mar. 2024.
-2. A. A. BIN ZAINUDDIN, “Enhancing IoT Security: A Synergy of Machine Learning, Artificial Intelligence, and Blockchain”, Data Science Insights, vol. 2, no. 1, Feb. 2024.
+1. Y.-C. Chou et al., “An AI Mock-interview Platform for Interview Performance Analysis,” ICIET 2022.  
+2. P. K. Mishra et al., “AI-Driven Virtual Mock Interview Development,” SCIS&ISIS 2024.  
+3. J. V. Barpute et al., “A Survey of AI-Driven Mock Interviews Using GenAI and Machine Learning (InterviewX),” ICUIS 2024.  
 
-
-
-
+---
