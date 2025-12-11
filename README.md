@@ -81,13 +81,14 @@ Displays historical performance improvement across multiple attempts.
 
 ## Results and Impact
 This AI-driven system enhances interview readiness by providing **real-time, multimodal feedback** on communication, confidence, and technical accuracy.  
-It offers:
+
 sample ouput(Based on user's performance):
 NLP Scores
  - Confidence: 65%
  - Communication: 70%
  - Answer Accuracy: 80%
-
+   
+It offers:
 - Deep behavioral analysis missing in text-only tools  
 - Automated and unbiased scoring  
 - Practical insights for improving interview performance  
