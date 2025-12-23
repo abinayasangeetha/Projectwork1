@@ -1,0 +1,24 @@
+Flask==3.0.3
+python-dotenv==1.0.1
+requests==2.32.3
+
+# PDF
+fpdf==1.7.2
+
+# Resume PDF extraction
+PyPDF2==3.0.1
+
+# Audio + Video processing
+moviepy==1.0.3
+opencv-python==4.11.0.86
+soundfile==0.12.1
+
+# Whisper STT
+faster-whisper==1.2.1
+ctranslate2==4.0.0
+
+# Core dependencies
+numpy==1.26.4
+protobuf==4.25.3
+scipy==1.11.4
+torch==2.2.2
